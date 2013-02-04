@@ -1,0 +1,12 @@
+{application, ssp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ssp_app, []}},
+  {env, [{enouk_core, ssp_application}]}
+ ]}.
